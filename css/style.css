@@ -78,7 +78,7 @@ a.no-after:after {
 	background-color: #EDDBC7;
 	color: #000;
   }
-  .btn-outline-primary:hover {
+  .btn-primary:hover {
 	border-color: #EDDBC7;
   }
   
@@ -524,6 +524,12 @@ a.no-after:after {
 	padding-bottom: 100px;
 	height: 700px;
 }
+
+.background-tint {
+	background-color: rgba(0, 0, 0, 0.4);
+	background-blend-mode: multiply;
+}
+
 .hero-section .container {
 	position: relative;
 	z-index: 5;
@@ -652,6 +658,15 @@ video {
 	-o-transition: all 0.3s;
 	transition: all 0.3s;
 }
+
+/* .service-item i fa-solid {
+	font-size: 100px;
+} */
+.fa-solid {
+	font-size: 45px;
+	margin: 15px;
+}
+
 .service-item h4 {
 	color: #19191a;
 	font-size: 22px;
