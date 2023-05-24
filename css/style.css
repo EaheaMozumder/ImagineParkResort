@@ -307,7 +307,7 @@ a.no-after:after {
 }
 .top-nav .tn-right .top-social {
 	float: left;
-	display: inline-block;
+	/* display: inline-block; */
 	margin-right: 50px;
 	margin-right: 287px;
 	padding: 13px 0;
@@ -426,6 +426,8 @@ a.no-after:after {
 	transition: all 0.3s;
 }
 
+/* .canvas-open */
+
 .fixedpos {
 	overflow: hidden;
 	background: #ffffff;
@@ -487,9 +489,9 @@ a.no-after:after {
 	color: #19191a;
 	cursor: pointer;
 }
-.canvas-open {
-	display: none;
-}
+/* .canvas-open {
+	display: none; 
+} */
 .offcanvas-menu-wrapper {
 	display: none;
 }
@@ -1321,11 +1323,11 @@ height: 100%;
 		width: 30px;
 		height: 30px;
 		color: #19191a;
-		border: 1px solid #19191a;
-		border-radius: 2px;
+		/* border: 1px solid #19191a; */
+		/* border-radius: 2px; */
 		line-height: 33px;
 		text-align: center;
-		z-index: 100;
+		z-index: 101;
 		display: block;
 		cursor: pointer;
 	}
@@ -1350,8 +1352,9 @@ height: 100%;
 	.offcanvas-menu-wrapper .canvas-close {
 		height: 30px;
 		width: 30px;
-		border: 1px solid #19191a;
-		border-radius: 50%;
+		font-size: 22px;
+		/* border: 1px solid #19191a; */
+		/* border-radius: 50%; */
 		text-align: center;
 		line-height: 30px;
 		cursor: pointer;
